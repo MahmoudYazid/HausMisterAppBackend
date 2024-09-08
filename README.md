@@ -11,6 +11,7 @@
 4- JWT AUTH<br>
 ## Erd
 
+![null](https://github.com/user-attachments/assets/b42dc680-98c2-44af-a26b-87aac72dfb93)
 
 
 
