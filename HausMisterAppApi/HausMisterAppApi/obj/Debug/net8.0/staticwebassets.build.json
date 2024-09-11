@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NRSpmt9pifzKa4c3dVSAzPRp1D7vNzfbbcVVF65RtR8=",
+  "Source": "HausMisterAppApi",
+  "BasePath": "_content/HausMisterAppApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

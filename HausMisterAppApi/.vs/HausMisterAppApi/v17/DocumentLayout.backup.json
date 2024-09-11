@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6D27DC-9EBF-4C63-83F6-EE75EA99AB02}|businessLayer\\businessLayer.csproj|d:\\programming\\git\\hausmisterappbackend\\hausmisterappapi\\businesslayer\\reposatory\\workerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6D27DC-9EBF-4C63-83F6-EE75EA99AB02}|businessLayer\\businessLayer.csproj|solutionrelative:businesslayer\\reposatory\\workerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC61E8B-3DD8-436B-A5D4-A414527191DC}|dataAccessLayer\\dataAccessLayer.csproj|d:\\programming\\git\\hausmisterappbackend\\hausmisterappapi\\dataaccesslayer\\dto\\contractdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC61E8B-3DD8-436B-A5D4-A414527191DC}|dataAccessLayer\\dataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dto\\contractdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA9A3752-5FD3-43C6-AEB3-33A52A387CAA}|HausMisterAppApi\\HausMisterAppApi.csproj|d:\\programming\\git\\hausmisterappbackend\\hausmisterappapi\\hausmisterappapi\\controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA9A3752-5FD3-43C6-AEB3-33A52A387CAA}|HausMisterAppApi\\HausMisterAppApi.csproj|solutionrelative:hausmisterappapi\\controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6D27DC-9EBF-4C63-83F6-EE75EA99AB02}|businessLayer\\businessLayer.csproj|d:\\programming\\git\\hausmisterappbackend\\hausmisterappapi\\businesslayer\\ireposatory\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6D27DC-9EBF-4C63-83F6-EE75EA99AB02}|businessLayer\\businessLayer.csproj|solutionrelative:businesslayer\\ireposatory\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA9A3752-5FD3-43C6-AEB3-33A52A387CAA}|HausMisterAppApi\\HausMisterAppApi.csproj|d:\\programming\\git\\hausmisterappbackend\\hausmisterappapi\\hausmisterappapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA9A3752-5FD3-43C6-AEB3-33A52A387CAA}|HausMisterAppApi\\HausMisterAppApi.csproj|solutionrelative:hausmisterappapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/master/True/SqlTable/dbo.Contracts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/master/True/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC61E8B-3DD8-436B-A5D4-A414527191DC}|dataAccessLayer\\dataAccessLayer.csproj|d:\\programming\\git\\hausmisterappbackend\\hausmisterappapi\\dataaccesslayer\\sealedmodel\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC61E8B-3DD8-436B-A5D4-A414527191DC}|dataAccessLayer\\dataAccessLayer.csproj|solutionrelative:dataaccesslayer\\sealedmodel\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 355,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/master/True/SqlTable/dbo.users.sql",
+              "ToolTip": "dbo.users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-11T13:38:40.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Contracts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/master/True/SqlTable/dbo.Contracts.sql",
+              "ToolTip": "dbo.Contracts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-11T13:37:30.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\HausMisterAppApi\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "HausMisterAppApi\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\HausMisterAppApi\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "HausMisterAppApi\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T13:36:24.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IWorker.cs",
+              "DocumentMoniker": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\businessLayer\\IReposatory\\IWorker.cs",
+              "RelativeDocumentMoniker": "businessLayer\\IReposatory\\IWorker.cs",
+              "ToolTip": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\businessLayer\\IReposatory\\IWorker.cs",
+              "RelativeToolTip": "businessLayer\\IReposatory\\IWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T13:02:30.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkerController.cs",
+              "DocumentMoniker": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\HausMisterAppApi\\Controllers\\WorkerController.cs",
+              "RelativeDocumentMoniker": "HausMisterAppApi\\Controllers\\WorkerController.cs",
+              "ToolTip": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\HausMisterAppApi\\Controllers\\WorkerController.cs",
+              "RelativeToolTip": "HausMisterAppApi\\Controllers\\WorkerController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:56:53.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContractDto.cs",
+              "DocumentMoniker": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\dataAccessLayer\\DTO\\ContractDto.cs",
+              "RelativeDocumentMoniker": "dataAccessLayer\\DTO\\ContractDto.cs",
+              "ToolTip": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\dataAccessLayer\\DTO\\ContractDto.cs",
+              "RelativeToolTip": "dataAccessLayer\\DTO\\ContractDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:41:01.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkerRepository.cs",
+              "DocumentMoniker": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\businessLayer\\Reposatory\\WorkerRepository.cs",
+              "RelativeDocumentMoniker": "businessLayer\\Reposatory\\WorkerRepository.cs",
+              "ToolTip": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\businessLayer\\Reposatory\\WorkerRepository.cs",
+              "RelativeToolTip": "businessLayer\\Reposatory\\WorkerRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswEEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:38:55.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\dataAccessLayer\\sealedModel\\Roles.cs",
+              "RelativeDocumentMoniker": "dataAccessLayer\\sealedModel\\Roles.cs",
+              "ToolTip": "D:\\programming\\Git\\HausMisterAppBackend\\HausMisterAppApi\\dataAccessLayer\\sealedModel\\Roles.cs",
+              "RelativeToolTip": "dataAccessLayer\\sealedModel\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:36:31.109Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 102,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 113,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

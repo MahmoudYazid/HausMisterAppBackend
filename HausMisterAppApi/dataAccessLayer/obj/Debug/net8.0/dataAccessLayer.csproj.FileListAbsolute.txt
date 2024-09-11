@@ -1,0 +1,15 @@
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\bin\Debug\net8.0\dataAccessLayer.deps.json
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\bin\Debug\net8.0\dataAccessLayer.runtimeconfig.json
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\bin\Debug\net8.0\dataAccessLayer.dll
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\bin\Debug\net8.0\dataAccessLayer.pdb
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.csproj.AssemblyReference.cache
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.AssemblyInfoInputs.cache
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.AssemblyInfo.cs
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.csproj.CoreCompileInputs.cache
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.sourcelink.json
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.dll
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\refint\dataAccessLayer.dll
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.pdb
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\dataAccessLayer.genruntimeconfig.cache
+D:\programming\Git\HausMisterAppBackend\HausMisterAppApi\dataAccessLayer\obj\Debug\net8.0\ref\dataAccessLayer.dll
