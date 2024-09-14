@@ -13,9 +13,12 @@ namespace businessLayer.Reposatory
 {
     public class WorkerRepository : IWorker
     {
-        public WorkerRepository(MasterDbContext masterDbContext , Roles roles ) {
+        private readonly ComplainsStatus complainsStatus;
+
+        public WorkerRepository(MasterDbContext masterDbContext , Roles roles , ComplainsStatus _complainsStatus) {
             MasterDbContext = masterDbContext;
             Roles = roles;
+            complainsStatus = _complainsStatus;
         }
 
         public MasterDbContext MasterDbContext { get; }
@@ -96,6 +99,72 @@ namespace businessLayer.Reposatory
             }
             // make contract
 
+        }
+
+        public async Task<String? > AddCommentToTheComplains(int ComplainId, string Comment,int WorkerID)
+        {
+            var findid_ = await MasterDbContext.Complains.FindAsync(ComplainId);
+            if (findid_ != null) {
+                findid_.response = Comment;
+                findid_.ManagerId = WorkerID;
+
+                await MasterDbContext.SaveChangesAsync();
+                return $"COMMENT ADDED TO ComplainID {ComplainId}";
+
+
+            }
+            else { return null ; }
+        }
+
+        public async Task<String?> ChangeComplainsState(int ComplainId, string newStatus, int WorkerID)
+        {
+            if (newStatus.ToString() != complainsStatus.Inprocess.ToString() && newStatus.ToString() != complainsStatus.rejected.ToString() && newStatus.ToString() != complainsStatus.Done.ToString()) {
+                return $"Status Should be {complainsStatus.Inprocess},{complainsStatus.Done},{complainsStatus.rejected}";
+            }
+            else
+            {
+                var findid_ = await MasterDbContext.Complains.FindAsync(ComplainId);
+                if (findid_ != null)
+                {
+                    findid_.status = newStatus;
+                    findid_.ManagerId = WorkerID;
+
+                    await MasterDbContext.SaveChangesAsync();
+                    return $"Status Modified TO ComplainID {ComplainId}";
+
+
+                }
+                else { return null; }
+            }
+          
+        }
+
+        public  async Task<IEnumerable<ComplainsModel>?> ShowAllComplains(string RuleOfUser)
+        {
+            if(RuleOfUser == Roles.Worker || RuleOfUser == Roles.Manager) { 
+                return await MasterDbContext.Complains.ToListAsync();
+            }
+            else
+            {
+                return null;
+
+            }
+        }
+
+        public async Task<String?> DeleteComplains(int ComplainId, string RuleOfUser)
+        {
+            if (RuleOfUser == Roles.Worker || RuleOfUser == Roles.Manager)
+            {
+                var findId = await MasterDbContext.Complains.FindAsync(ComplainId);
+                MasterDbContext.Complains.Remove(findId);
+                await MasterDbContext.SaveChangesAsync();
+                return $"Complain id: {ComplainId} has been deleted";
+            }
+            else
+            {
+                return null;
+
+            }
         }
     }
 }

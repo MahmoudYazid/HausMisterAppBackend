@@ -171,6 +171,89 @@
   },
   {
     "ContainingType": "HausMisterAppApi.Controllers.WorkerController",
+    "Method": "AddCommentToTheComplains",
+    "RelativePath": "api/Worker/AddCommentToTheComplains",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompalinID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Comment",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HausMisterAppApi.Controllers.WorkerController",
+    "Method": "DeleteComplains",
+    "RelativePath": "api/Worker/DeleteComplains/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HausMisterAppApi.Controllers.WorkerController",
+    "Method": "DeleteContract",
+    "RelativePath": "api/Worker/DeleteContract/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HausMisterAppApi.Controllers.WorkerController",
     "Method": "MakeContract",
     "RelativePath": "api/Worker/MakeContract",
     "HttpMethod": "POST",
@@ -186,6 +269,57 @@
     "ReturnTypes": [
       {
         "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HausMisterAppApi.Controllers.WorkerController",
+    "Method": "ModifyComplainsStatus",
+    "RelativePath": "api/Worker/ModifyComplainsStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompalinID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HausMisterAppApi.Controllers.WorkerController",
+    "Method": "ShowAllTheComplains",
+    "RelativePath": "api/Worker/ShowAllTheComplains",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[dataAccessLayer.Models.ComplainsModel, dataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
